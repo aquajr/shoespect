@@ -74,7 +74,7 @@
   }
 
   .gallery-item {
-    background-color: #ffffff;
+    background: linear-gradient(to right, #f0fbff, #e0f7ff, #c0eaff);
     border-radius: 10px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     padding: 15px;
@@ -252,7 +252,7 @@
   }
 
    .review-card {
-    background: #fff;
+    background: linear-gradient(to right, #f0fbff, #e0f7ff, #c0eaff);
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     padding: 25px;
@@ -282,7 +282,7 @@
 
   .stars {
     font-size: 22px;
-    color: #ffc400;
+    color: #57d2ff;
     margin-bottom: 10px;
     font-weight: bold;
   }
@@ -334,7 +334,7 @@
     max-width: 800px;
     padding: 20px;
     border-radius: 10px;
-    background-color: #f0fbff;
+    background: linear-gradient(to right, #f0fbff, #e0f7ff, #c0eaff);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
   }
 
