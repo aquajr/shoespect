@@ -80,7 +80,14 @@
     padding: 15px;
     text-align: center;
     transition: transform 0.3s ease;
+    
   }
+
+  .gallery-item a {
+  text-decoration: none;
+  color: inherit; /* Optional: keeps the text color consistent */
+}
+
 
   .gallery-item:hover {
     transform: translateY(-10px);
@@ -275,8 +282,9 @@
 
   .stars {
     font-size: 22px;
-    color: #57d2ff;
+    color: #ffc400;
     margin-bottom: 10px;
+    font-weight: bold;
   }
 
   .review-text {

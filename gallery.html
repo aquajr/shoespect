@@ -11,12 +11,20 @@
 
   </head>
   <body>
-  <nav class="navbar navbar-expand-lg custom-navbar">
+ <nav class="navbar navbar-expand-lg custom-navbar fixed-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="home.html" style="color: white;">
-      <img src="images/shoe.png" alt="Logo" width="32" height="32" class="d-inline-block align-text-top"">
+      <img src="images/shoe.png" alt="Logo" width="32" height="32" class="d-inline-block align-text-top">
       Shoespect
     </a>
+
+    <!-- Hamburger toggler -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapsible menu -->
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
@@ -27,96 +35,141 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="reviews.html">Reviews</a>
+        </li>
         <li class="nav-item">
           <a class="nav-link" href="about.html">About</a>
+        </li>
       </ul>
     </div>
   </div>
 </nav>
 
-<section class="gallery-section">
+<section class="gallery-section" style="margin-top: 60px;">
   <div class="gallery-title">Gallery</div>
   <div class="gallery-grid">
-    <div class="gallery-item">
-      <img src="images/AIR+JORDAN+1+MID.avif" alt="Air Jordan 1 Mid">
-      <h4>Air Jordan 1 Mid</h4>
-    </div>
-    <div class="gallery-item">
-      <img src="images/chucktaylorallstar.jpg" alt="Chuck Taylor All Star Canvas Converse">
-      <h4>Chuck Taylor All Star Canvas Converse</h4>
-    </div>
-    <div class="gallery-item">
-      <img src="images/premiumauthentic.avif" alt="Premium Authentic Vans">
-      <h4>Premium Authentic Vans</h4>
-    </div>
-    <div class="gallery-item">
-      <img src="images/newbalanceBB550.webp" alt="New Balance BB550">
-      <h4>New Balance BB550</h4>
-    </div>
-    <div class="gallery-item">
-      <img src="images/consonestarcc.webp" alt="CONS One Star CC Slip Pro Converse">
-      <h4>CONS One Star CC Slip Pro Converse</h4>
-    </div>
-    <div class="gallery-item">
-      <img src="images/Swift_Run_1_Shoes_Beige_.avif" alt="Adidas Swift Run 1">
-      <h4>Adidas Swift Run 1</h4>
-    </div>
-    <div class="gallery-item">
-      <img src="images/superlowpro.avif" alt="Super Lowpro Vans">
-      <h4>Super Lowpro Vans</h4>
-    </div>
-    <div class="gallery-item">
-      <img src="images/newbalance2002r.webp" alt="New Balance 2002R">
-      <h4>New Balance 2002R</h4>
-    </div>
-    <div class="gallery-item">
-      <img src="images/classicslipon.avif" alt="Classic Slip-On Checkerboard Vans">
-      <h4>Classic Slip-On Checkerboard Vans</h4>
-    </div>
-    <div class="gallery-item">
-      <img src="images/AIR+FORCE+1+'07.avif" alt="Air Force 1 '07">
-      <h4>Air Force 1 '07</h4>
-    </div>
-    <div class="gallery-item">
-      <img src="images/cl98suedeconverse.jpg" alt="CL98 Suede Converse">
-      <h4>CL98 Suede Converse</h4>
-    </div>
-    <div class="gallery-item">
-      <img src="images/newbalance530.webp" alt="New Balance 530">
-      <h4>New Balance 530</h4>
-    </div>
-    <div class="gallery-item">
-      <img src="images/Forum_Low_CL_Shoes_White_.avif" alt="Adidas Forum Low CL">
-      <h4>Adidas Forum Low CL</h4>
-    </div>
-    <div class="gallery-item">
-      <img src="images/premiumoldskool.avif" alt="Premium Old Skool 36 Vans">
-      <h4>Premium Old Skool 36 Vans</h4>
-    </div>
-    <div class="gallery-item">
-      <img src="images/omegatrainer.webp" alt="Omega Trainer Converse">
-      <h4>Omega Trainer Converse</h4>
-    </div>
-    <div class="gallery-item">
-      <img src="images/AIR+JORDAN+4+RETRO.avif" alt="Air Jordan 4 Retro">
-      <h4>Air Jordan 4 Retro</h4>
-    </div>
-    <div class="gallery-item">
-      <img src="images/NIKE+DUNK+LOW+RETRO.avif" alt="Nike Dunk Low Retro">
-      <h4>Nike Dunk Low Retro</h4>
-    </div>
-    <div class="gallery-item">
-      <img src="images/chuck70canvas.jpg" alt="Chuck 70 Canvas Converse">
-      <h4>Chuck 70 Canvas Converse</h4>
-    </div>
-    <div class="gallery-item">
-      <img src="images/Samba_OG_Shoes_Black_.avif" alt="Adidas Samba OG">
-      <h4>Adidas Samba OG</h4>
-    </div>
-    <div class="gallery-item">
-      <img src="images/newbalance480.webp" alt="New Balance 480">
-      <h4>New Balance 480</h4>
-    </div>
+   <div class="gallery-item">
+  <a href="https://www.nike.com/w/jordan-1-shoes-4fokyzy7ok">
+    <img src="images/AIR+JORDAN+1+MID.avif" alt="Air Jordan 1 Mid">
+    <h4>Air Jordan 1 Mid</h4>
+  </a>
+</div>
+<div class="gallery-item">
+  <a href="https://www.converse.com/shop/p/chuck-taylor-all-star-canvas-unisex-high-top-shoe/M7650.html?dwvar_
+  M7650_color=optical%20white&dwvar_M7650_width=standard&styleNo=M7650&cgid=chuck-taylor-all-star-shoes" target="_blank">
+    <img src="images/chucktaylorallstar.jpg" alt="Chuck Taylor All Star Canvas Converse">
+    <h4>Chuck Taylor All Star Canvas Converse</h4>
+  </a>
+</div>
+<div class="gallery-item">
+  <a href="https://www.vans.com/en-us/p/shoes/icons/authentic-5310/premium-authentic-shoe-VN000EBNBRD" target="_blank">
+    <img src="images/premiumauthentic.avif" alt="Premium Authentic Vans">
+    <h4>Premium Authentic Vans</h4>
+  </a>
+</div>
+<div class="gallery-item">
+  <a href="https://www.newbalance.com/pd/bb550/BB550V1-36485-PMG-NA.html" target="_blank">
+    <img src="images/newbalanceBB550.webp" alt="New Balance BB550">
+    <h4>New Balance BB550</h4>
+  </a>
+</div>
+<div class="gallery-item">
+  <a href="https://www.converse.com/shop/p/cons-one-star-cc-slip-pro-skate-low-top-shoe/A12916MP.html" target="_blank">
+    <img src="images/consonestarcc.webp" alt="CONS One Star CC Slip Pro Converse">
+    <h4>CONS One Star CC Slip Pro Converse</h4>
+  </a>
+</div>
+<div class="gallery-item">
+  <a href="https://www.adidas.com/us/swift-run-1.0-shoes/JQ4127.html" target="_blank">
+    <img src="images/Swift_Run_1_Shoes_Beige_.avif" alt="Adidas Swift Run 1">
+    <h4>Adidas Swift Run 1</h4>
+  </a>
+</div>
+<div class="gallery-item">
+  <a href="https://www.vans.com/en-us/p/shoes/super-lowpro-1984/super-lowpro-shoe-VN000D83BLA" target="_blank">
+    <img src="images/superlowpro.avif" alt="Super Lowpro Vans">
+    <h4>Super Lowpro Vans</h4>
+  </a>
+</div>
+<div class="gallery-item">
+  <a href="https://www.newbalance.com/2002r/" target="_blank">
+    <img src="images/newbalance2002r.webp" alt="New Balance 2002R">
+    <h4>New Balance 2002R</h4>
+  </a>
+</div>
+<div class="gallery-item">
+  <a href="https://www.vans.com/en-us/p/shoes/icons/classic-slip-on-5315/classic-slip-on-checkerboard-shoe-VN000EYEBWW" target="_blank">
+    <img src="images/classicslipon.avif" alt="Classic Slip-On Checkerboard Vans">
+    <h4>Classic Slip-On Checkerboard Vans</h4>
+  </a>
+</div>
+<div class="gallery-item">
+  <a href="https://www.nike.com/t/air-force-1-07-mens-shoes-jBrhbr" target="_blank">
+    <img src="images/AIR+FORCE+1+'07.avif" alt="Air Force 1 '07">
+    <h4>Air Force 1 '07</h4>
+  </a>
+</div>
+<div class="gallery-item">
+  <a href="https://www.converse.com/shop/p/cl98-suede-skate-low-top-shoe/A15607MP.html" target="_blank">
+    <img src="images/cl98suedeconverse.jpg" alt="CL98 Suede Converse">
+    <h4>CL98 Suede Converse</h4>
+  </a>
+</div>
+<div class="gallery-item">
+  <a href="https://www.newbalance.com/530/" target="_blank">
+    <img src="images/newbalance530.webp" alt="New Balance 530">
+    <h4>New Balance 530</h4>
+  </a>
+</div>
+<div class="gallery-item">
+  <a href="https://www.adidas.com/us/forum-low-cl-shoes/IH7830.html" target="_blank">
+    <img src="images/Forum_Low_CL_Shoes_White_.avif" alt="Adidas Forum Low CL">
+    <h4>Adidas Forum Low CL</h4>
+  </a>
+</div>
+<div class="gallery-item">
+  <a href="https://www.vans.com/en-us/p/shoes/icons/old-skool-5205/premium-old-skool-shoe-VN000E8VBPT" target="_blank">
+    <img src="images/premiumoldskool.avif" alt="Premium Old Skool 36 Vans">
+    <h4>Premium Old Skool 36 Vans</h4>
+  </a>
+</div>
+<div class="gallery-item">
+  <a href="https://www.converse.com/shop/p/omega-trainer-unisex-low-top-shoe/A13376MP.html" target="_blank">
+    <img src="images/omegatrainer.webp" alt="Omega Trainer Converse">
+    <h4>Omega Trainer Converse</h4>
+  </a>
+</div>
+<div class="gallery-item">
+  <a href="https://www.nike.com/t/air-jordan-4-retro-rare-air-mens-shoes-R20n6n/FV5029-003" target="_blank">
+    <img src="images/AIR+JORDAN+4+RETRO.avif" alt="Air Jordan 4 Retro">
+    <h4>Air Jordan 4 Retro</h4>
+  </a>
+</div>
+<div class="gallery-item">
+  <a href="https://www.nike.com/t/dunk-low-retro-shoes-cljPCl" target="_blank">
+    <img src="images/NIKE+DUNK+LOW+RETRO.avif" alt="Nike Dunk Low Retro">
+    <h4>Nike Dunk Low Retro</h4>
+  </a>
+</div>
+<div class="gallery-item">
+  <a href="https://www.converse.com/shop/p/chuck-70-canvas-unisex-low-top-shoe/162058C.html?
+  dwvar_162058C_color=black%2Fblack%2Fegret&dwvar_162058C_width=standard&styleNo=A10358F&cgid=mens-shoes" target="_blank">
+    <img src="images/chuck70canvas.jpg" alt="Chuck 70 Canvas Converse">
+    <h4>Chuck 70 Canvas Converse</h4>
+  </a>
+</div>
+<div class="gallery-item">
+  <a href="https://www.adidas.com/us/samba" target="_blank">
+    <img src="images/Samba_OG_Shoes_Black_.avif" alt="Adidas Samba OG">
+    <h4>Adidas Samba OG</h4>
+  </a>
+</div>
+<div class="gallery-item">
+  <a href="https://www.newbalance.com/480/" target="_blank">
+    <img src="images/newbalance480.webp" alt="New Balance 480">
+    <h4>New Balance 480</h4>
+  </a>
+</div>
+
   </div>
 </section>
 <footer class="footer">
